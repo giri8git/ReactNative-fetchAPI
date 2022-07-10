@@ -25,7 +25,7 @@ const App = () => {
       console.log(err);
     }
   }
-  
+
   return (
     <View style={styles.mainContainer}>
       <ScrollView>
@@ -69,6 +69,8 @@ const styles = StyleSheet.create({
   cardText: {
     fontSize: 20,
     textAlign: "center",
+    fontFamily: "EduSABeginner-VariableFont_wght",
+  
   }
 
 })
